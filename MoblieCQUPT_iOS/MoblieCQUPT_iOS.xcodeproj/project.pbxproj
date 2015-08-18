@@ -21,6 +21,7 @@
 		CEF61B621B82BE1B0014B980 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = CEF61B611B82BE1B0014B980 /* README.md */; };
 		CEF61B651B82C02E0014B980 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = CEF61B641B82C02E0014B980 /* README.md */; };
 		CEF61B681B82C0370014B980 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = CEF61B671B82C0370014B980 /* README.md */; };
+		CEF61B6B1B82D5260014B980 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = CEF61B6A1B82D5260014B980 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		CEF61B611B82BE1B0014B980 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CEF61B641B82C02E0014B980 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CEF61B671B82C0370014B980 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CEF61B6A1B82D5260014B980 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CEF61B6C1B82D58B0014B980 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +99,7 @@
 		CEF61B2C1B82BC950014B980 /* MoblieCQUPT_iOS */ = {
 			isa = PBXGroup;
 			children = (
+				CEF61B691B82D5260014B980 /* Config */,
 				CEF61B5D1B82BE0C0014B980 /* Controller */,
 				CEF61B531B82BDFE0014B980 /* Resoure */,
 				CEF61B5A1B82BE070014B980 /* Model */,
@@ -203,6 +207,15 @@
 				CEF61B671B82C0370014B980 /* README.md */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CEF61B691B82D5260014B980 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				CEF61B6A1B82D5260014B980 /* README.md */,
+				CEF61B6C1B82D58B0014B980 /* PrefixHeader.pch */,
+			);
+			path = Config;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -314,6 +327,7 @@
 				CEF61B581B82BDFE0014B980 /* README.md in Sources */,
 				CEF61B651B82C02E0014B980 /* README.md in Sources */,
 				CEF61B621B82BE1B0014B980 /* README.md in Sources */,
+				CEF61B6B1B82D5260014B980 /* README.md in Sources */,
 				CEF61B301B82BC950014B980 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -440,6 +454,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MoblieCQUPT_iOS/Config/PrefixHeader.pch";
 				INFOPLIST_FILE = MoblieCQUPT_iOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -450,6 +465,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MoblieCQUPT_iOS/Config/PrefixHeader.pch";
 				INFOPLIST_FILE = MoblieCQUPT_iOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
