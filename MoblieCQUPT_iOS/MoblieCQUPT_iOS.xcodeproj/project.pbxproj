@@ -14,6 +14,13 @@
 		CEF61B3B1B82BC950014B980 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEF61B3A1B82BC950014B980 /* Images.xcassets */; };
 		CEF61B3E1B82BC950014B980 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEF61B3C1B82BC950014B980 /* LaunchScreen.xib */; };
 		CEF61B4A1B82BC950014B980 /* MoblieCQUPT_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF61B491B82BC950014B980 /* MoblieCQUPT_iOSTests.m */; };
+		CEF61B581B82BDFE0014B980 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = CEF61B551B82BDFE0014B980 /* README.md */; };
+		CEF61B591B82BDFE0014B980 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = CEF61B571B82BDFE0014B980 /* README.md */; };
+		CEF61B5C1B82BE070014B980 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = CEF61B5B1B82BE070014B980 /* README.md */; };
+		CEF61B5F1B82BE0C0014B980 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = CEF61B5E1B82BE0C0014B980 /* README.md */; };
+		CEF61B621B82BE1B0014B980 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = CEF61B611B82BE1B0014B980 /* README.md */; };
+		CEF61B651B82C02E0014B980 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = CEF61B641B82C02E0014B980 /* README.md */; };
+		CEF61B681B82C0370014B980 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = CEF61B671B82C0370014B980 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +47,13 @@
 		CEF61B431B82BC950014B980 /* MoblieCQUPT_iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoblieCQUPT_iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEF61B481B82BC950014B980 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEF61B491B82BC950014B980 /* MoblieCQUPT_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoblieCQUPT_iOSTests.m; sourceTree = "<group>"; };
+		CEF61B551B82BDFE0014B980 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CEF61B571B82BDFE0014B980 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CEF61B5B1B82BE070014B980 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CEF61B5E1B82BE0C0014B980 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CEF61B611B82BE1B0014B980 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CEF61B641B82C02E0014B980 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CEF61B671B82C0370014B980 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +77,7 @@
 		CEF61B211B82BC950014B980 = {
 			isa = PBXGroup;
 			children = (
+				CEF61B601B82BE1B0014B980 /* SDK */,
 				CEF61B2C1B82BC950014B980 /* MoblieCQUPT_iOS */,
 				CEF61B461B82BC950014B980 /* MoblieCQUPT_iOSTests */,
 				CEF61B2B1B82BC950014B980 /* Products */,
@@ -81,6 +96,11 @@
 		CEF61B2C1B82BC950014B980 /* MoblieCQUPT_iOS */ = {
 			isa = PBXGroup;
 			children = (
+				CEF61B5D1B82BE0C0014B980 /* Controller */,
+				CEF61B531B82BDFE0014B980 /* Resoure */,
+				CEF61B5A1B82BE070014B980 /* Model */,
+				CEF61B661B82C0370014B980 /* ViewModel */,
+				CEF61B631B82C02E0014B980 /* Tool */,
 				CEF61B311B82BC950014B980 /* AppDelegate.h */,
 				CEF61B321B82BC950014B980 /* AppDelegate.m */,
 				CEF61B341B82BC950014B980 /* ViewController.h */,
@@ -117,6 +137,72 @@
 				CEF61B481B82BC950014B980 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEF61B531B82BDFE0014B980 /* Resoure */ = {
+			isa = PBXGroup;
+			children = (
+				CEF61B541B82BDFE0014B980 /* Images */,
+				CEF61B561B82BDFE0014B980 /* Views */,
+			);
+			path = Resoure;
+			sourceTree = "<group>";
+		};
+		CEF61B541B82BDFE0014B980 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CEF61B551B82BDFE0014B980 /* README.md */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		CEF61B561B82BDFE0014B980 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CEF61B571B82BDFE0014B980 /* README.md */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CEF61B5A1B82BE070014B980 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CEF61B5B1B82BE070014B980 /* README.md */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CEF61B5D1B82BE0C0014B980 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CEF61B5E1B82BE0C0014B980 /* README.md */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CEF61B601B82BE1B0014B980 /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+				CEF61B611B82BE1B0014B980 /* README.md */,
+			);
+			name = SDK;
+			path = MoblieCQUPT_iOS/SDK;
+			sourceTree = "<group>";
+		};
+		CEF61B631B82C02E0014B980 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				CEF61B641B82C02E0014B980 /* README.md */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		CEF61B661B82C0370014B980 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CEF61B671B82C0370014B980 /* README.md */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,8 +305,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEF61B5C1B82BE070014B980 /* README.md in Sources */,
 				CEF61B361B82BC950014B980 /* ViewController.m in Sources */,
+				CEF61B681B82C0370014B980 /* README.md in Sources */,
 				CEF61B331B82BC950014B980 /* AppDelegate.m in Sources */,
+				CEF61B5F1B82BE0C0014B980 /* README.md in Sources */,
+				CEF61B591B82BDFE0014B980 /* README.md in Sources */,
+				CEF61B581B82BDFE0014B980 /* README.md in Sources */,
+				CEF61B651B82C02E0014B980 /* README.md in Sources */,
+				CEF61B621B82BE1B0014B980 /* README.md in Sources */,
 				CEF61B301B82BC950014B980 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
